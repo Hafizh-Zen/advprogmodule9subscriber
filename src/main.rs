@@ -16,9 +16,9 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
         let _now = time::Instant::now();
 
         // Simulate processing delay if needed
-        // thread::sleep(ten_millis);
+        thread::sleep(ten_millis);
 
-        println!("In Ade’s Computer [2306256343]. Message received: {:?}", message);
+        println!("In Hafizh's Computer [2306256343]. Message received: {:?}", message);
         Ok(())
     }
 
