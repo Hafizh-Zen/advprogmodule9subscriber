@@ -10,7 +10,7 @@ b. In guest:guest@localhost:5672:
 
 ## RABBITMQ  SIMULATION SLOW SUBSCRIBER
 
-![initial_RabbitMQ](image/subscriber1.png)
+![initial_RabbitMQ](image/subsriber1.png)
 
 When the subscriber is deliberately slowed down by adding a one-second delay per message, the producer continues sending messages quickly. This causes the messages to pile up in the queue since they’re arriving faster than the subscriber can process them, which results in a noticeable increase in the queue length on the RabbitMQ dashboard.
 
